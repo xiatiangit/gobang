@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+  background: rgb(247, 212, 218);
+  .box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 700px;
+    height: 700px;
+    background: rgba(250, 187, 198, 0.7);
+    display: inline;
+    .cell {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left: 37%;
+      top: 37%;
+      .btn {
+        margin-bottom: 10px;
+        height: 30px;
+      }
+    }
+  }
+  .myCanvas {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .over {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 700px;
+    background: rgba(250, 187, 198, 0.7);
+    display: none;
+    .overCell {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      .text2{
+        margin-left: 15px;
+        color: red;
+      }
+      .btn1{
+        margin-left: 25px;
+        height: 30px;
+      }
+    }
+  }
+}
